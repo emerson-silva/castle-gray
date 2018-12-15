@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: db6e3a1b88cc40a459f0ce8173286b17
+guid: f8d587c8937f52c43b885976b7a39166
 TextureImporter:
   fileIDToRecycleName:
-    21300000: TileSet_0
-    21300002: TileSet_1
-    21300004: TileSet_2
-    21300006: TileSet_3
-    21300008: TileSet_4
-    21300010: TileSet_5
-    21300012: TileSet_6
-    21300014: TileSet_7
-    21300016: TileSet_8
+    21300000: cm_ground_wb_ht
+    21300002: dm_wall_wb_ht
+    21300004: cm_wall_wb_ht
+    21300006: cm_ground_wb_mv
+    21300008: dm_wall_wb_mv
+    21300010: cm_wall_wb_mv
+    21300012: cm_ground_wb
+    21300014: dm_wall_wb
+    21300016: cm_wall_wb
   externalObjects: {}
   serializedVersion: 6
   mipmaps:
@@ -93,7 +93,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TileSet_0
+      name: cm_ground_wb_ht
       rect:
         serializedVersion: 2
         x: 0
@@ -101,19 +101,19 @@ TextureImporter:
         width: 40
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 788744da7e6b01243ade4a18985a1561
+      spriteID: 6ab85a92beea65c47b09ef44b5f38288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileSet_1
+      name: dm_wall_wb_ht
       rect:
         serializedVersion: 2
         x: 41
@@ -121,19 +121,19 @@ TextureImporter:
         width: 40
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96ba999d67d74624594fec534ccecfd8
+      spriteID: d748b25096923ae4d95088762288d05e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileSet_2
+      name: cm_wall_wb_ht
       rect:
         serializedVersion: 2
         x: 82
@@ -141,19 +141,19 @@ TextureImporter:
         width: 40
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ffa66047665c6242b050791b6c3178f
+      spriteID: eb73440ae0e509c41bba1e9cc5b99854
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileSet_3
+      name: cm_ground_wb_mv
       rect:
         serializedVersion: 2
         x: 0
@@ -161,19 +161,19 @@ TextureImporter:
         width: 40
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d18d5af562bda2f4783ed54a08e9e027
+      spriteID: 6b6181ecdd4bc8c41801d3bf16f277f8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileSet_4
+      name: dm_wall_wb_mv
       rect:
         serializedVersion: 2
         x: 41
@@ -181,19 +181,19 @@ TextureImporter:
         width: 40
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5443e6f135786e341aa3fd2251921ad3
+      spriteID: 7fe7d22c6a49e98438fc1d72a467e40b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileSet_5
+      name: cm_wall_wb_mv
       rect:
         serializedVersion: 2
         x: 82
@@ -201,19 +201,19 @@ TextureImporter:
         width: 40
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b8c708430784684dac45144d884fbe6
+      spriteID: dfde717daaa00c946aba9f6273dab879
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileSet_6
+      name: cm_ground_wb
       rect:
         serializedVersion: 2
         x: 0
@@ -221,19 +221,19 @@ TextureImporter:
         width: 40
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e1c1dfb86c1bfd4c80f054d3d6b4262
+      spriteID: 49cb5bf405e880a4e85b0216864ab54f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileSet_7
+      name: dm_wall_wb
       rect:
         serializedVersion: 2
         x: 41
@@ -241,19 +241,19 @@ TextureImporter:
         width: 40
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8df0b580ba35ee1499678c9404c8e05f
+      spriteID: e731461b51083d14ba0a5a6b7360ecef
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileSet_8
+      name: cm_wall_wb
       rect:
         serializedVersion: 2
         x: 82
@@ -261,13 +261,13 @@ TextureImporter:
         width: 40
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ac532b8c8f538340998b01929cc8ce5
+      spriteID: 308575451699f8045852d5226f8697e1
       vertices: []
       indices: 
       edges: []
@@ -275,7 +275,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: f8bd5ff881505284ba7c7d09e2ce2b49
+    spriteID: dffde2e0ca499e14499e8c137f272efc
     vertices: []
     indices: 
     edges: []
