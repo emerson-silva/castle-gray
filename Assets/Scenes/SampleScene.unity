@@ -217,8 +217,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac239d38bb2dee84282b1129b69ea220, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mapSize: {x: 3, y: 2}
-  tilePrefab: {fileID: 4956703453197586, guid: 9b54a90a4e75fcc42999c1d907b4ff12, type: 2}
+  mapSize: {x: 12, y: 12}
+  communGround: {fileID: 4956703453197586, guid: 9b54a90a4e75fcc42999c1d907b4ff12,
+    type: 2}
+  walls:
+  - {fileID: 1226178898631272, guid: 3588676ef958fe94c994e399733cd72f, type: 2}
+  - {fileID: 1142787361888760, guid: c712a0efc7a56e14dac30bd582e133aa, type: 2}
 --- !u!4 &1289053229
 Transform:
   m_ObjectHideFlags: 0

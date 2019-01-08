@@ -27,6 +27,8 @@ public class MapGenerator : MonoBehaviour {
 		Transform tile;
 		int tileNum;
 
+		//ToDo: make this better
+
 		for (int x=0 ; x<mapSize.x; x++) {
 			for (int y=0; y<mapSize.y; y++) {
 				tileNum = random.Next(walls.Length+1);
