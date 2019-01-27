@@ -217,12 +217,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac239d38bb2dee84282b1129b69ea220, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mapSize: {x: 12, y: 12}
-  communGround: {fileID: 4956703453197586, guid: 9b54a90a4e75fcc42999c1d907b4ff12,
-    type: 2}
+  mapSize: {x: 16, y: 16}
   walls:
-  - {fileID: 1226178898631272, guid: 3588676ef958fe94c994e399733cd72f, type: 2}
-  - {fileID: 1142787361888760, guid: c712a0efc7a56e14dac30bd582e133aa, type: 2}
+  - {fileID: 1705380434514376, guid: 3588676ef958fe94c994e399733cd72f, type: 2}
+  - {fileID: 1597248466039236, guid: c712a0efc7a56e14dac30bd582e133aa, type: 2}
+  communGround: {fileID: 4929891419833442, guid: 9b54a90a4e75fcc42999c1d907b4ff12,
+    type: 2}
+  communWall: {fileID: 4197610653489388, guid: c712a0efc7a56e14dac30bd582e133aa, type: 2}
+  destroyableWall: {fileID: 4338495207424032, guid: 3588676ef958fe94c994e399733cd72f,
+    type: 2}
+  player: {fileID: 4047380808292546, guid: 67444a604a7254e4296cdeb2e526b7a7, type: 2}
+  commonEnemy: {fileID: 4323306106457200, guid: 1531a70d0a887fd42aafe051d9179c7a,
+    type: 2}
+  rogueEnemy: {fileID: 4825368637393620, guid: 2a56e75ccec2f7f4d906ed2cae87fb8d, type: 2}
+  mageEnemy: {fileID: 4389059955110850, guid: dd472bf1c005da448b05e6255c41b499, type: 2}
+  warriorEnemy: {fileID: 4301828262505970, guid: 96845a12704977d428af29eb99641fff,
+    type: 2}
+  nextFase: {fileID: 4956703453197586, guid: 9b54a90a4e75fcc42999c1d907b4ff12, type: 2}
 --- !u!4 &1289053229
 Transform:
   m_ObjectHideFlags: 0
